@@ -5,7 +5,7 @@ import {
   responsiveFontSizes,
 } from "@material-ui/core/styles";
 import CssBaseline from "@material-ui/core/CssBaseline";
-import HeroSection from "../components/HeroSection";
+import HomeSection from "../components/HomeSection";
 import Header from "../components/Header";
 import Projects from "../components/Projects";
 
@@ -21,7 +21,7 @@ export default function indexPage() {
     <ThemeProvider theme={darkTheme}>
       <CssBaseline />
       <Header />
-      <HeroSection />
+      <HomeSection />
       <Projects />
     </ThemeProvider>
   );

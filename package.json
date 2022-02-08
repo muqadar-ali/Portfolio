@@ -1,9 +1,9 @@
 {
-  "name": "portfolio-gatsby",
+  "name": "portfolio",
   "version": "1.0.0",
   "private": true,
-  "description": "Portfolio Gatsby",
-  "author": "Nara",
+  "description": "Portfolio",
+  "author": "Muqadar Ali Jamali",
   "keywords": [
     "gatsby"
   ],

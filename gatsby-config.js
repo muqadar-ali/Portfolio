@@ -1,7 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "Portfolio Gatsby",
+    title: "Muqadar Ali Jamali",
   },
   plugins: [
     "gatsby-plugin-image",

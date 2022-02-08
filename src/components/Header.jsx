@@ -31,8 +31,8 @@ const useStyles = makeStyles((theme) => ({
     borderRadius: 0,
     height: 30,
     border: "2px solid gray",
-    borderLeft: "12px solid transparent",
-    borderRight: "12px solid transparent",
+    borderLeft: "8px solid transparent",
+    borderRight: "8px solid transparent",
   },
 }));
 
@@ -43,7 +43,7 @@ export default function Header() {
     <AppBar position="sticky" color="default">
       <Container maxWidth="md">
         <ToolBar disableGutters>
-          <Avatar className={styles.avatar}>P</Avatar>
+          <Avatar className={styles.avatar}>MJ</Avatar>
           <Hidden xsDown>
             {navigationLinks.map((item) => (
               <Link
